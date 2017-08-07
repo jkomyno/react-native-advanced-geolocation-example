@@ -5,7 +5,7 @@
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest",
-		"release": "cd android && gradlew.bat assembleRelease --stacktrace --info --debug",
+		"release": "cd android && gradlew.bat assembleRelease --info",
 		"apk": "cd android/app/build/outputs/apk && explorer ."
 	},
 	"dependencies": {
